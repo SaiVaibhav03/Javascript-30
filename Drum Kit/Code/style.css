@@ -49,6 +49,13 @@ h1 {
   border: 1px black solid;
   box-sizing: border-box;
   text-align: center;
+  background-image: linear-gradient(
+    to right bottom,
+    #e03998,
+    #d057b5,
+    #44c8d2,
+    #54cdc5
+  );
 }
 
 .playing {
