@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background: linear-gradient(to left, #000000 0%, #ffffff 50%, #000000 100%);
+}
+
+.navbar {
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0%;
+  font-size: 5rem;
+  font-family: "Creepster";
+  background: #b8e1fc;
+  background: repeating-radial-gradient(
+    ellipse farthest-corner at center center,
+    #a2d6f9 0%,
+    #ef4e54 50%,
+    #231421 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.container {
+  height: 80%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.outline {
+  transition: linear 1.3s;
+  height: 30vh;
+  width: 9vw;
+  border: 1px black solid;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.playing {
+  transform: scaleY(1.1);
+  border: 1.1px rgba(0, 0, 0, 0.952) solid;
+  box-shadow: 0px 0px 1px 1px #000000, 1px 1px 1px 1px #e8e4e4,
+    -1px -1px 1px 1px #e8e2e2;
+  box-sizing: border-box;
+}
+
+.names {
+  padding: 2px;
+  font-size: medium;
+  margin: 0;
+  height: 15%;
+  width: 100%;
+  backdrop-filter: blur(50px);
+  backdrop-filter: brightness(90%);
+  box-sizing: border-box;
+}
+.images {
+  height: 70%;
+  width: 70%;
+  backdrop-filter: blur(50px);
+  backdrop-filter: brightness(90%);
+  box-sizing: border-box;
+}
+
+.keyboard-key {
+  padding: 2px;
+  font-size: smaller;
+  margin: 0;
+  height: 15%;
+  width: 100%;
+  backdrop-filter: blur(50px);
+  backdrop-filter: brightness(90%);
+  box-sizing: border-box;
+}
