@@ -1,0 +1,45 @@
+:root {
+  --position: 10px;
+  --blur: 0px;
+  --color: #2f9c5d;
+  color: brown;
+}
+
+body {
+  margin: 0px;
+  background: #193549;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.h1 {
+  color: var(--color);
+}
+
+.button-controls {
+  color: rgba(255, 255, 255, 0.479);
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+input {
+  height: 15px;
+  width: 70px;
+}
+
+input[type="color"] {
+  height: 30px;
+  width: 30px;
+}
+
+img {
+  height: 350px;
+  width: 250px;
+  padding: var(--position);
+  background-color: var(--color);
+  filter: blur(var(--blur));
+}
